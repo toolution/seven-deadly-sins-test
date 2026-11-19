@@ -15,3 +15,5 @@ test-results/
 .DS_Store
 
 work/reference-icons-contact.png
+work/evidence/
+.seo-cache/

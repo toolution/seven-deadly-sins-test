@@ -1,0 +1,163 @@
+{
+  "checked_at": "2026-11-19T11:02:20.099286+00:00",
+  "checks": [
+    {
+      "path": "/",
+      "status": 200,
+      "content_type": [
+        "text/html\r"
+      ],
+      "x_robots": [],
+      "bytes": 14766,
+      "title": [
+        "7 Deadly Sins Test \u2014 Free Quiz, Find Your Strongest Sin"
+      ],
+      "h1": [
+        "7 Deadly Sins Test"
+      ],
+      "description": [
+        "Take the free 7 deadly sins test: answer 35 questions, discover your strongest sin, and download your result image. Instant results. No sign-up."
+      ],
+      "canonical": [
+        "https://7deadlysinstestfree.com/"
+      ],
+      "robots": [
+        "index,follow"
+      ],
+      "schema": [
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "@id": "https://7deadlysinstestfree.com/#webpage",
+          "name": "7 Deadly Sins Test",
+          "url": "https://7deadlysinstestfree.com/",
+          "description": "A free personality-themed entertainment test using 35 public-domain IPIP items, mapped to seven independently scored themes.",
+          "inLanguage": "en",
+          "isPartOf": {
+            "@type": "WebSite",
+            "@id": "https://7deadlysinstestfree.com/#website",
+            "name": "Seven Sins",
+            "url": "https://7deadlysinstestfree.com/"
+          }
+        }
+      ],
+      "old_origin": false
+    },
+    {
+      "path": "/methodology/",
+      "status": 200,
+      "content_type": [
+        "text/html\r"
+      ],
+      "x_robots": [],
+      "bytes": 12283
+    },
+    {
+      "path": "/privacy/",
+      "status": 200,
+      "content_type": [
+        "text/html\r"
+      ],
+      "x_robots": [],
+      "bytes": 4862
+    },
+    {
+      "path": "/terms/",
+      "status": 200,
+      "content_type": [
+        "text/html\r"
+      ],
+      "x_robots": [],
+      "bytes": 4791
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "content_type": [
+        "text/plain\r"
+      ],
+      "x_robots": [],
+      "bytes": 77,
+      "body": "User-agent: *\nAllow: /\n\nSitemap: https://7deadlysinstestfree.com/sitemap.xml\n"
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "content_type": [
+        "application/xml\r"
+      ],
+      "x_robots": [],
+      "bytes": 349,
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\"><url><loc>https://7deadlysinstestfree.com/</loc></url><url><loc>https://7deadlysinstestfree.com/methodology/</loc></url><url><loc>https://7deadlysinstestfree.com/privacy/</loc></url><url><loc>https://7deadlysinstestfree.com/terms/</loc></url></urlset>"
+    },
+    {
+      "path": "/llms.txt",
+      "status": 200,
+      "content_type": [
+        "text/plain\r"
+      ],
+      "x_robots": [],
+      "bytes": 1016,
+      "body": "# 7 Deadly Sins Test\n\n> A free entertainment and self-reflection quiz using 35 public-domain IPIP statements. Seven independent theme scores, written explanations, and a downloadable result image. No account required.\n\n- [Take the test](https://7deadlysinstestfree.com/): The first question is directly available on the homepage.\n- [Methodology and complete item key](https://7deadlysinstestfree.com/methodology/): Exact item wording, IPIP identifiers, forward/reverse scoring, and limitations.\n- [Privacy](https://7deadlysinstestfree.com/privacy/): Answers are processed and stored locally in the browser; shared links contain seven scores.\n- [Terms](https://7deadlysinstestfree.com/terms/)\n- [IPIP public-domain permission](https://ipip.ori.org/newPermission.htm)\n\nThe seven-sin mapping and interpretation are site-created and have not been validated as a psychological scale. Scores are percentages of available points, not population percentiles or a diagnosis. IPIP does not endorse this site's interpretation.\n"
+    },
+    {
+      "path": "/social.png",
+      "status": 200,
+      "content_type": [
+        "image/png\r"
+      ],
+      "x_robots": [],
+      "bytes": 268469,
+      "width": 1200,
+      "height": 630
+    },
+    {
+      "path": "/no-such-page-qa/",
+      "status": 404,
+      "content_type": [
+        "text/html\r"
+      ],
+      "x_robots": [],
+      "bytes": 3080
+    },
+    {
+      "simulated_user_agent": "Googlebot",
+      "status": 200,
+      "html_title_present": true
+    },
+    {
+      "simulated_user_agent": "OAI-SearchBot",
+      "status": 200,
+      "html_title_present": true
+    },
+    {
+      "simulated_user_agent": "ChatGPT-User",
+      "status": 200,
+      "html_title_present": true
+    },
+    {
+      "simulated_user_agent": "PerplexityBot",
+      "status": 200,
+      "html_title_present": true
+    },
+    {
+      "simulated_user_agent": "Python-urllib/3.9",
+      "status": 403,
+      "html_title_present": false
+    },
+    {
+      "url": "https://www.7deadlysinstestfree.com/",
+      "status": 301,
+      "location": [
+        "https://7deadlysinstestfree.com/\r"
+      ]
+    },
+    {
+      "url": "http://7deadlysinstestfree.com/",
+      "status": 301,
+      "location": [
+        "https://7deadlysinstestfree.com/\r"
+      ]
+    }
+  ]
+}

@@ -10,10 +10,10 @@ Independent reference UI review: ship, after fixing button/link contrast and rec
 
 ## Verification
 
-Five scoring tests pass, including independent scores, reverse-keying, ties, malformed answers, and versioned shared result validation. Two full browser tests passed locally: all35 questions, Back/edit/recalculate, reload restoration, seven-way tie, clean-context shared results, PNG signature/dimensions, reset confirmation, keyboard, and desktop/mobile overflow. Actual screenshots and1080×1350 exports were opened for visual inspection. Astro check reports0errors/warnings/hints and build passes after final metadata/domain edits.
+Five scoring tests pass, including independent scores, reverse-keying, ties, malformed answers, and versioned shared result validation. Two full browser tests passed locally: all 35 questions, Back/edit/recalculate, reload restoration, seven-way tie, clean-context shared results, PNG signature/dimensions, reset confirmation, keyboard, and desktop/mobile overflow. Actual screenshots and 1080×1350 exports were opened for visual inspection. Astro check reports 0 errors/warnings/hints and build passes after final metadata/domain edits.
 
 Production verification and Search Console acceptance are recorded in work/seo-review.md and work/GEO-ANALYSIS.md when completed.
 
 ## Source and deployment
 
-GitHub source: https://github.com/toolution/seven-deadly-sins-test on main. Cloudflare Worker: seven-deadly-sins-test. Apex domain moves from an unpublished GeFeiSites draft returning Not found to this project; www redirects301to apex. No other site, email record, or account permission is changed.
+GitHub source: https://github.com/toolution/seven-deadly-sins-test on main. Cloudflare Worker: seven-deadly-sins-test. Apex domain moves from an unpublished GeFeiSites draft returning Not found to this project; www redirects 301 to apex. No other site, email record, or account permission is changed.
