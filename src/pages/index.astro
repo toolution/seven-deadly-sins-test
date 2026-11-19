@@ -1,0 +1,38 @@
+---
+import Layout from '../layouts/Layout.astro';
+import {SINS} from '../lib/sins';
+import {questions,CHOICES} from '../lib/scoring';
+import {icon} from '../lib/art';
+const schema={'@context':'https://schema.org','@type':'WebPage','@id':new URL('#webpage',Astro.site!).href,name:'7 Deadly Sins Test',url:Astro.site!.href,description:'A free personality-themed entertainment test using 35 public-domain IPIP items, mapped to seven independently scored themes.',inLanguage:'en',isPartOf:{'@type':'WebSite','@id':new URL('#website',Astro.site!).href,name:'Seven Sins',url:Astro.site!.href}};
+---
+<Layout>
+<script type="application/ld+json" set:html={JSON.stringify(schema)}/>
+<section class="test-section wrap" aria-labelledby="test-title">
+<div class="intro" id="intro">
+<h1 id="test-title">7 Deadly Sins Test</h1>
+<p class="intro-copy">Which of the seven deadly sins is strongest in you?</p>
+<p class="test-facts">35 questions <span aria-hidden="true">·</span> Free <span aria-hidden="true">·</span> No sign-up</p>
+
+</div>
+<div class="quiz-area" id="quiz-area">
+<form class="questionnaire" id="quiz" aria-labelledby="question-heading">
+<div class="quiz-topline"><span id="question-counter">Question 1 <span class="muted">/ 35</span></span><span class="private-note"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="5" y="10" width="14" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg> Answers stay on this device</span></div>
+<div class="progress-track" role="progressbar" aria-label="Questions answered" aria-valuemin="0" aria-valuemax="35" aria-valuenow="0" id="progress"><div id="progress-fill" class="progress-segments"><span><i style="background:#8260cf"></i></span><span><i style="background:#d69b22"></i></span><span><i style="background:#df5d78"></i></span><span><i style="background:#378867"></i></span><span><i style="background:#d57a35"></i></span><span><i style="background:#ce5650"></i></span><span><i style="background:#5274bc"></i></span></div></div>
+<div class="question-body"><p class="question-instruction">How accurately does this describe you?</p><h2 id="question-heading" tabindex="-1">{questions[0].text}</h2>
+<fieldset class="answers" id="answers"><legend class="sr-only">Choose how accurately the statement describes you</legend>{CHOICES.map((choice,i)=><label class="answer"><input type="radio" name="answer" value={i}/><span class="answer-key" aria-hidden="true">{i+1}</span><span>{choice}</span><svg class="answer-check" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></label>)}</fieldset></div>
+<div class="quiz-bottom"><button type="button" class="text-button" id="back" disabled><span aria-hidden="true">←</span> Back</button><button type="submit" class="primary-button" id="next" disabled>Continue <span aria-hidden="true">→</span></button></div>
+<p class="quiz-hint" id="quiz-hint">Go with your usual self. There are no right answers.</p>
+</form>
+<p class="under-quiz">Real personality items. A playful perspective.<br/><a href="/methodology/">Read about the IPIP questions and our interpretation.</a></p>
+<noscript><p class="notice">Please enable JavaScript to take the test and generate your image. You can still read <a href="/methodology/">all questions and the scoring method</a>.</p></noscript>
+</div>
+<div id="results" class="results" hidden aria-labelledby="result-heading"></div>
+</section>
+<div class="below-test">
+<section class="how-section wrap" id="how-it-works" aria-labelledby="how-heading"><div><h2 id="how-heading">A mirror.<br/>With a mischievous side.</h2><p>This 7 deadly sins test turns your answers to 35 personality statements into a colorful snapshot of pride, greed, lust, envy, gluttony, wrath, and sloth. Answer directly above, then explore which themes stand out for you.</p></div><ol class="steps"><li><span class="step-number">1</span><div><h3>Be your usual self.</h3><p>Rate how accurately each statement describes you, rather than how you think you should answer. You can go back and change an answer.</p></div></li><li><span class="step-number">2</span><div><h3>Meet your seven sides.</h3><p>Get an independent score for every theme, your strongest result, and a short explanation. The seven percentages do not add up to 100.</p></div></li><li><span class="step-number">3</span><div><h3>Keep the picture.</h3><p>Download your personal result as a PNG or share a link. Friends can take the same test and compare their own results.</p></div></li></ol></section>
+<section class="themes-section wrap" aria-labelledby="themes-heading"><div class="section-heading"><h2 id="themes-heading">Seven names.<br/>Very human tendencies.</h2><p>Old labels, everyday patterns.<br/>A high score is a conversation starter, not a verdict.</p></div><div class="themes-list">{SINS.map(s=><article class="theme-row"><span class="theme-icon" style={`--sin-color:${s.color};--sin-pale:${s.pale}`} set:html={icon(s.id,27)}></span><h3>{s.name}<span>{s.theme}</span></h3><p>{s.description}</p></article>)}</div></section>
+<section class="faq-section wrap" aria-labelledby="faq-heading"><h2 id="faq-heading">A few good questions.</h2><div class="faq-list"><details><summary>What is the 7 deadly sins test?</summary><p>It is a free entertainment questionnaire that maps your responses to seven themes from the traditional seven deadly sins. You receive a score for each theme, a strongest-theme summary, written explanations, and a downloadable image.</p></details><details><summary>Where do the personality questions come from?</summary><p>All 35 statements come directly from the <a href="https://ipip.ori.org/AlphabeticalItemList.htm">International Personality Item Pool (IPIP)</a>, whose items are in the public domain. We preserve their wording and publish the item identifiers on our <a href="/methodology/">methodology page</a>. Selecting these items and mapping them to seven sins is our own interpretation.</p></details><details><summary>Is this a scientifically validated psychological test?</summary><p>No. IPIP supplies personality items, but this particular selection, seven-sin mapping, and result explanations have not been validated as a psychological scale. Use the result for entertainment and self-reflection, not diagnosis, hiring, or judging someone’s character.</p></details><details><summary>What do the percentages mean?</summary><p>Each theme has five questions scored from 0 to 4, with some items scored in reverse. The total is divided by 20 and multiplied by 100. So 80% means 16 out of 20 possible points on that theme, not that you are more “sinful” than 80% of people. Several themes can score highly at once.</p></details><details><summary>Are my answers private?</summary><p>Your answers are processed and saved in this browser. The site does not send quiz responses to a server. A result link includes your seven scores, so share it only if you want others to see them. Our <a href="/privacy/">privacy page</a> explains local storage and hosting.</p></details><details><summary>Can I retake the test or change an answer?</summary><p>Yes. Use Back while answering, or Edit answers after finishing. Start over clears your local quiz progress so you can take a fresh test. Your result may change with your answers and circumstances.</p></details></div></section>
+<section class="closing-section wrap"><h2>Curious which side leads?</h2><a href="#test-title" class="primary-button">Take the test <span aria-hidden="true">↑</span></a></section>
+</div>
+<script>import '../lib/quiz';</script>
+</Layout>

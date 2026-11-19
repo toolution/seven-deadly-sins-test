@@ -1,0 +1,28 @@
+---
+import '@fontsource-variable/roboto';
+import '../styles/global.css';
+interface Props {title?:string;description?:string;noindex?:boolean;}
+const {title='7 Deadly Sins Test — Free Quiz, Find Your Strongest Sin',description='Take the free 7 deadly sins test: answer 35 questions, discover your strongest sin, and download your result image. Instant results. No sign-up.',noindex=false}=Astro.props;
+const canonical=new URL(Astro.url.pathname,Astro.site!);
+const social=new URL('/social.png',Astro.site!);
+---
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>{title}</title><meta name="description" content={description}/>
+<link rel="canonical" href={canonical}/><meta name="robots" content={noindex?'noindex,follow':'index,follow'}/>
+<meta name="theme-color" content="#ffffff"/>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+<meta property="og:type" content="website"/><meta property="og:site_name" content="Seven Sins"/>
+<meta property="og:title" content={title}/><meta property="og:description" content={description}/><meta property="og:url" content={canonical}/><meta property="og:image" content={social}/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image:alt" content="7 Deadly Sins Test — seven personality themes, one colorful result"/>
+<meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content={title}/><meta name="twitter:description" content={description}/><meta name="twitter:image" content={social}/>
+<slot name="head"/>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header wrap"><a class="wordmark" href="/" aria-label="Seven Sins home"><svg viewBox="0 0 40 40" width="34" height="34" aria-hidden="true"><path d="M20 3 33.3 9.4 36.6 23.8 27.4 35.3H12.6L3.4 23.8 6.7 9.4Z" fill="#4b9e50"/><path d="m14 13 13 0-10 16" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg><span>seven<span class="wordmark-light">sins</span></span></a><nav aria-label="Main navigation"><a href="/#how-it-works">How it works</a><a href="/methodology/">The method <span aria-hidden="true">↗</span></a></nav></header>
+<main id="main"><slot/></main>
+<footer class="site-footer wrap"><a class="footer-title" href="/">A little more self-awareness.</a><div class="footer-links"><a href="/methodology/">About & methodology</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a></div><p>Public-domain IPIP items. Our own seven-sin interpretation.<br/>For entertainment and self-reflection. Not a psychological diagnosis.</p><span class="copyright">© {new Date().getFullYear()} Seven Sins</span></footer>
+</body>
+</html>

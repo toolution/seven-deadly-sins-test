@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.astro/
+.wrangler/
+.env
+.env.*
+!.env.example
+work/sources/ipip-alphabetical.txt
+work/sources/ipip-items.json
+work/test-results/
+.impeccable/review/
+.impeccable/mocks/
+playwright-report/
+test-results/
+.DS_Store
+
+work/reference-icons-contact.png

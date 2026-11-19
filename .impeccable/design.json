@@ -1,0 +1,410 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-19T10:57:44.117306+00:00",
+  "title": "Design System: Seven Sins",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "role": "primary",
+        "displayName": "Primary",
+        "canonical": "#35823a",
+        "tonalRamp": [
+          "oklch(15% 0.0328 144.63)",
+          "oklch(26% 0.0721 144.63)",
+          "oklch(38% 0.1049 144.63)",
+          "oklch(50% 0.1311 144.63)",
+          "oklch(62% 0.1311 144.63)",
+          "oklch(74% 0.1114 144.63)",
+          "oklch(86% 0.0655 144.63)",
+          "oklch(95% 0.0197 144.63)"
+        ]
+      },
+      "primary-hover": {
+        "role": "primary",
+        "displayName": "Primary Hover",
+        "canonical": "#286d2e",
+        "tonalRamp": [
+          "oklch(15% 0.0296 144.92)",
+          "oklch(26% 0.0652 144.92)",
+          "oklch(38% 0.0948 144.92)",
+          "oklch(50% 0.1185 144.92)",
+          "oklch(62% 0.1185 144.92)",
+          "oklch(74% 0.1008 144.92)",
+          "oklch(86% 0.0593 144.92)",
+          "oklch(95% 0.0178 144.92)"
+        ]
+      },
+      "share-green": {
+        "role": "primary",
+        "displayName": "Share Green",
+        "canonical": "#4b9e50",
+        "tonalRamp": [
+          "oklch(15% 0.0348 144.84)",
+          "oklch(26% 0.0766 144.84)",
+          "oklch(38% 0.1114 144.84)",
+          "oklch(50% 0.1392 144.84)",
+          "oklch(62% 0.1392 144.84)",
+          "oklch(74% 0.1183 144.84)",
+          "oklch(86% 0.0696 144.84)",
+          "oklch(95% 0.0209 144.84)"
+        ]
+      },
+      "link-blue": {
+        "role": "secondary",
+        "displayName": "Link Blue",
+        "canonical": "#2373ad",
+        "tonalRamp": [
+          "oklch(15% 0.0295 245.00)",
+          "oklch(26% 0.0648 245.00)",
+          "oklch(38% 0.0943 245.00)",
+          "oklch(50% 0.1179 245.00)",
+          "oklch(62% 0.1179 245.00)",
+          "oklch(74% 0.1002 245.00)",
+          "oklch(86% 0.0589 245.00)",
+          "oklch(95% 0.0177 245.00)"
+        ]
+      },
+      "ground": {
+        "role": "neutral",
+        "displayName": "Ground",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.88)",
+          "oklch(26% 0.0000 89.88)",
+          "oklch(38% 0.0000 89.88)",
+          "oklch(50% 0.0000 89.88)",
+          "oklch(62% 0.0000 89.88)",
+          "oklch(74% 0.0000 89.88)",
+          "oklch(86% 0.0000 89.88)",
+          "oklch(95% 0.0000 89.88)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#484848",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.88)",
+          "oklch(26% 0.0000 89.88)",
+          "oklch(38% 0.0000 89.88)",
+          "oklch(50% 0.0000 89.88)",
+          "oklch(62% 0.0000 89.88)",
+          "oklch(74% 0.0000 89.88)",
+          "oklch(86% 0.0000 89.88)",
+          "oklch(95% 0.0000 89.88)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "canonical": "#666666",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.88)",
+          "oklch(26% 0.0000 89.88)",
+          "oklch(38% 0.0000 89.88)",
+          "oklch(50% 0.0000 89.88)",
+          "oklch(62% 0.0000 89.88)",
+          "oklch(74% 0.0000 89.88)",
+          "oklch(86% 0.0000 89.88)",
+          "oklch(95% 0.0000 89.88)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Line",
+        "canonical": "#dddddd",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.88)",
+          "oklch(26% 0.0000 89.88)",
+          "oklch(38% 0.0000 89.88)",
+          "oklch(50% 0.0000 89.88)",
+          "oklch(62% 0.0000 89.88)",
+          "oklch(74% 0.0000 89.88)",
+          "oklch(86% 0.0000 89.88)",
+          "oklch(95% 0.0000 89.88)"
+        ]
+      },
+      "chart-outline": {
+        "role": "neutral",
+        "displayName": "Chart Outline",
+        "canonical": "#111111",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.88)",
+          "oklch(26% 0.0000 89.88)",
+          "oklch(38% 0.0000 89.88)",
+          "oklch(50% 0.0000 89.88)",
+          "oklch(62% 0.0000 89.88)",
+          "oklch(74% 0.0000 89.88)",
+          "oklch(86% 0.0000 89.88)",
+          "oklch(95% 0.0000 89.88)"
+        ]
+      },
+      "pride": {
+        "role": "secondary",
+        "displayName": "Pride",
+        "canonical": "#4d974b",
+        "tonalRamp": [
+          "oklch(15% 0.0332 143.24)",
+          "oklch(26% 0.0731 143.24)",
+          "oklch(38% 0.1063 143.24)",
+          "oklch(50% 0.1329 143.24)",
+          "oklch(62% 0.1329 143.24)",
+          "oklch(74% 0.1129 143.24)",
+          "oklch(86% 0.0664 143.24)",
+          "oklch(95% 0.0199 143.24)"
+        ]
+      },
+      "greed": {
+        "role": "secondary",
+        "displayName": "Greed",
+        "canonical": "#edc93c",
+        "tonalRamp": [
+          "oklch(15% 0.0388 94.02)",
+          "oklch(26% 0.0854 94.02)",
+          "oklch(38% 0.1242 94.02)",
+          "oklch(50% 0.1552 94.02)",
+          "oklch(62% 0.1552 94.02)",
+          "oklch(74% 0.1320 94.02)",
+          "oklch(86% 0.0776 94.02)",
+          "oklch(95% 0.0233 94.02)"
+        ]
+      },
+      "lust": {
+        "role": "secondary",
+        "displayName": "Lust",
+        "canonical": "#dc4b43",
+        "tonalRamp": [
+          "oklch(15% 0.0456 27.03)",
+          "oklch(26% 0.1004 27.03)",
+          "oklch(38% 0.1460 27.03)",
+          "oklch(50% 0.1825 27.03)",
+          "oklch(62% 0.1825 27.03)",
+          "oklch(74% 0.1551 27.03)",
+          "oklch(86% 0.0912 27.03)",
+          "oklch(95% 0.0274 27.03)"
+        ]
+      },
+      "envy": {
+        "role": "secondary",
+        "displayName": "Envy",
+        "canonical": "#82b64c",
+        "tonalRamp": [
+          "oklch(15% 0.0370 131.15)",
+          "oklch(26% 0.0813 131.15)",
+          "oklch(38% 0.1183 131.15)",
+          "oklch(50% 0.1479 131.15)",
+          "oklch(62% 0.1479 131.15)",
+          "oklch(74% 0.1257 131.15)",
+          "oklch(86% 0.0739 131.15)",
+          "oklch(95% 0.0222 131.15)"
+        ]
+      },
+      "gluttony": {
+        "role": "secondary",
+        "displayName": "Gluttony",
+        "canonical": "#dca051",
+        "tonalRamp": [
+          "oklch(15% 0.0298 71.67)",
+          "oklch(26% 0.0656 71.67)",
+          "oklch(38% 0.0955 71.67)",
+          "oklch(50% 0.1193 71.67)",
+          "oklch(62% 0.1193 71.67)",
+          "oklch(74% 0.1014 71.67)",
+          "oklch(86% 0.0597 71.67)",
+          "oklch(95% 0.0179 71.67)"
+        ]
+      },
+      "wrath": {
+        "role": "secondary",
+        "displayName": "Wrath",
+        "canonical": "#d55432",
+        "tonalRamp": [
+          "oklch(15% 0.0425 35.65)",
+          "oklch(26% 0.0935 35.65)",
+          "oklch(38% 0.1360 35.65)",
+          "oklch(50% 0.1700 35.65)",
+          "oklch(62% 0.1700 35.65)",
+          "oklch(74% 0.1445 35.65)",
+          "oklch(86% 0.0850 35.65)",
+          "oklch(95% 0.0255 35.65)"
+        ]
+      },
+      "sloth": {
+        "role": "secondary",
+        "displayName": "Sloth",
+        "canonical": "#956abc",
+        "tonalRamp": [
+          "oklch(15% 0.0321 307.11)",
+          "oklch(26% 0.0707 307.11)",
+          "oklch(38% 0.1028 307.11)",
+          "oklch(50% 0.1285 307.11)",
+          "oklch(62% 0.1285 307.11)",
+          "oklch(74% 0.1092 307.11)",
+          "oklch(86% 0.0642 307.11)",
+          "oklch(95% 0.0193 307.11)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Test title",
+        "purpose": "Large reference-matching page title; 39px on phones."
+      },
+      "headline": {
+        "displayName": "Section headline",
+        "purpose": "Supporting-section headings."
+      },
+      "question": {
+        "displayName": "Question",
+        "purpose": "Current statement; 26px on phones."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Supporting prose and result descriptions."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Compact metadata and navigation."
+      }
+    },
+    "shadows": [
+      {
+        "name": "share",
+        "value": "0 7px 15px #00000026",
+        "purpose": "Reference share control on desktop."
+      },
+      {
+        "name": "share-phone",
+        "value": "0 4px 9px #00000020",
+        "purpose": "Smaller phone share control."
+      },
+      {
+        "name": "profile-tile",
+        "value": "0 3px 6px #00000018",
+        "purpose": "Reference illustration tiles."
+      }
+    ],
+    "motion": [
+      {
+        "name": "control-transition",
+        "value": "background .15s, border-color .15s",
+        "purpose": "Answer hover and selection feedback."
+      },
+      {
+        "name": "progress-transition",
+        "value": "width .25s ease-out",
+        "purpose": "Answered-question progress."
+      },
+      {
+        "name": "question-entry",
+        "value": "question-in .2s ease-out",
+        "purpose": "Brief opacity and clip-path change between questions; disabled for reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact",
+        "value": "850px"
+      },
+      {
+        "name": "phone",
+        "value": "600px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "description": "Main continue, download, and take-test actions.",
+      "html": "<button class=\"ds-primary\">Continue <span aria-hidden=\"true\">\u2192</span></button>",
+      "css": ".ds-primary{font-family:'Roboto Variable',Arial,sans-serif;display:inline-flex;align-items:center;justify-content:center;gap:20px;background:var(--accent,#35823a);color:white;border:0;border-radius:5px;padding:14px 24px;font-size:16px;font-weight:700;line-height:1.3;min-height:48px;cursor:pointer;transition:background .15s}.ds-primary:hover:not(:disabled){background:#286d2e}.ds-primary:focus-visible{outline:3px solid var(--accent,#35823a);outline-offset:4px}.ds-primary:disabled{opacity:.4;cursor:default}@media(prefers-reduced-motion:reduce){.ds-primary{transition:none}}",
+      "refersTo": "button-primary"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "description": "Result utility actions beside the primary download action.",
+      "html": "<button class=\"ds-secondary\">Copy result link</button>",
+      "css": ".ds-secondary{font-family:'Roboto Variable',Arial,sans-serif;display:inline-flex;align-items:center;justify-content:center;border:1px solid #bbb;border-radius:5px;color:var(--ink,#484848);background:#fff;padding:13px 18px;font-size:16px;min-height:48px;cursor:pointer}.ds-secondary:hover{background:#f3f3f3}.ds-secondary:focus-visible{outline:3px solid var(--accent,#35823a);outline-offset:4px}",
+      "refersTo": "button-secondary"
+    },
+    {
+      "name": "Text Button",
+      "kind": "button",
+      "description": "Low-emphasis navigation and result utilities.",
+      "html": "<button class=\"ds-text\">Back</button>",
+      "css": ".ds-text{font-family:'Roboto Variable',Arial,sans-serif;border:0;background:transparent;padding:11px 0;font-size:15px;color:var(--blue,#2373ad);cursor:pointer}.ds-text:hover:not(:disabled){text-decoration:underline}.ds-text:focus-visible{outline:3px solid var(--accent,#35823a);outline-offset:4px}.ds-text:disabled{opacity:.4;cursor:default}",
+      "refersTo": "button-text"
+    },
+    {
+      "name": "Answer Row",
+      "kind": "input",
+      "description": "Native radio selection displayed as a bordered full-width row.",
+      "html": "<label class=\"ds-answer\"><input type=\"radio\" name=\"ds-answer\"/><span class=\"ds-number\">1</span><span>Very inaccurate</span><svg class=\"ds-check\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"m5 12 4 4L19 6\"/></svg></label>",
+      "css": ".ds-answer{font-family:'Roboto Variable',Arial,sans-serif;display:flex;position:relative;align-items:center;gap:12px;border:1px solid #ccc;border-radius:5px;min-height:52px;padding:13px 15px;font-size:16px;color:var(--ink,#484848);cursor:pointer;transition:background .15s,border-color .15s}.ds-answer:hover{background:#f6faf6;border-color:#84b989}.ds-answer:has(input:checked){border-color:var(--accent,#35823a);background:#e7f3e8}.ds-answer:has(input:focus-visible){outline:3px solid var(--accent,#35823a);outline-offset:3px}.ds-answer input{position:absolute;opacity:0;width:1px;height:1px}.ds-number{display:grid;place-items:center;width:22px;height:22px;border:1px solid #bdbdbd;border-radius:50%;font-size:12px;color:var(--muted,#666)}.ds-check{margin-left:auto;opacity:0;flex-shrink:0}.ds-answer:has(input:checked) .ds-number{background:var(--accent,#35823a);color:#fff;border-color:var(--accent,#35823a)}.ds-answer:has(input:checked) .ds-check{opacity:1;color:var(--accent,#35823a)}@media(prefers-reduced-motion:reduce){.ds-answer{transition:none}}",
+      "refersTo": "answer"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "description": "Compact blue supporting-page links.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Main navigation\"><a href=\"#how-it-works\">How it works</a><a href=\"/methodology/\">The method <span aria-hidden=\"true\">\u2197</span></a></nav>",
+      "css": ".ds-nav{font-family:'Roboto Variable',Arial,sans-serif;display:flex;gap:28px;align-items:center;font-size:14px}.ds-nav a{color:var(--blue,#2373ad);text-decoration:none;text-underline-offset:4px}.ds-nav a:hover{text-decoration:underline}.ds-nav a:focus-visible{outline:3px solid var(--accent,#35823a);outline-offset:4px}@media(max-width:600px){.ds-nav{gap:15px;font-size:13px}.ds-nav a:first-child{display:none}}"
+    },
+    {
+      "name": "Reference Share Button",
+      "kind": "button",
+      "description": "Rounded icon-only share action above the result diagram.",
+      "html": "<button class=\"ds-share\" aria-label=\"Share results\"><svg viewBox=\"0 0 24 24\" width=\"44\" height=\"44\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><circle cx=\"18\" cy=\"5\" r=\"3\"/><circle cx=\"6\" cy=\"12\" r=\"3\"/><circle cx=\"18\" cy=\"19\" r=\"3\"/><path d=\"m8.6 10.5 6.8-4M8.6 13.5l6.8 4\"/></svg></button>",
+      "css": ".ds-share{background:#4b9e50;color:white;width:110px;height:110px;border:0;border-radius:26px;display:grid;place-items:center;box-shadow:0 7px 15px #00000026;cursor:pointer}.ds-share:hover{background:#286d2e}.ds-share:focus-visible{outline:3px solid var(--accent,#35823a);outline-offset:4px}@media(max-width:850px){.ds-share{width:80px;height:80px;border-radius:20px}.ds-share svg{width:35px;height:35px}}@media(max-width:600px){.ds-share{width:48px;height:48px;border-radius:12px;box-shadow:0 4px 9px #00000020}.ds-share svg{width:25px;height:25px}}",
+      "refersTo": "share-button"
+    },
+    {
+      "name": "Seven-Segment Progress",
+      "kind": "custom",
+      "description": "Seven colored progress segments whose widths reflect answered questions.",
+      "html": "<div class=\"ds-progress\" role=\"progressbar\" aria-label=\"Questions answered\" aria-valuemin=\"0\" aria-valuemax=\"35\" aria-valuenow=\"12\"><span><i style=\"background:#8260cf;width:100%\"></i></span><span><i style=\"background:#d69b22;width:100%\"></i></span><span><i style=\"background:#df5d78;width:40%\"></i></span><span><i style=\"background:#378867;width:0%\"></i></span><span><i style=\"background:#d57a35;width:0%\"></i></span><span><i style=\"background:#ce5650;width:0%\"></i></span><span><i style=\"background:#5274bc;width:0%\"></i></span></div>",
+      "css": ".ds-progress{display:grid;grid-template-columns:repeat(7,1fr);gap:5px;height:6px}.ds-progress>span{display:block;background:#eee;overflow:hidden;border-radius:2px}.ds-progress i{display:block;height:100%;transition:width .25s ease-out}@media(prefers-reduced-motion:reduce){.ds-progress i{transition:none}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Illustrated Personality Wheel",
+    "overview": "The supplied reference establishes the visual identity: a white ground, bold dark-gray headings, black chart outlines, and seven colorful illustrations. The interface uses familiar controls and ample space so the test and its result diagram remain the focus. This records the implemented reference treatment, rather than a new visual direction.\n\nThe illustration set is extracted from the user-provided reference. Keep those assets recognizable and proportionate. Roboto carries the interface and export headings; the chart itself uses Arial for its SVG labels and percentages.",
+    "keyCharacteristics": [
+      "White surfaces and dark-gray, bold sans-serif hierarchy.",
+      "Green actions, blue links, and independently colored result sectors.",
+      "Familiar bordered answer rows and restrained rounding.",
+      "Illustrations and strong black geometry give results their character."
+    ],
+    "rules": [
+      {
+        "name": "The Action and Data Rule",
+        "body": "Green controls and blue links retain their interaction roles; the seven trait colors communicate results.",
+        "section": "colors"
+      },
+      {
+        "name": "The Reference Hierarchy Rule",
+        "body": "Keep the large dark-gray test title, the Results label, and the strongest-result sentence distinct from the chart's black labels.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Controls Rule",
+        "body": "Questionnaire rows and ordinary action buttons use borders or fill changes, without borrowing the result share control's shadow.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** preserve the supplied illustrations, their proportions, and their order around the result diagram.",
+      "**Do** use the primary green for white text controls and reserve blue for links and text actions.",
+      "**Do** keep readable question controls on phones and scale the chart as a unit.",
+      "**Do** retain keyboard focus visibility and reduced-motion behavior."
+    ],
+    "donts": [
+      "**Don't** restore the superseded lavender visual direction.",
+      "**Don't** replace the reference illustrations with unrelated glyphs or generic icon sets.",
+      "**Don't** introduce shadows on the ordinary questionnaire controls.",
+      "**Don't** make seven independent percentages appear to sum to a single total."
+    ]
+  }
+}

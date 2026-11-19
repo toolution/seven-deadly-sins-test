@@ -1,0 +1,10 @@
+{
+  "name": "seven-deadly-sins-test",
+  "main": "./src/worker.js",
+  "account_id": "9d6ec6e8f633cf8771089357ccfe861a",
+  "compatibility_date": "2026-11-19",
+  "assets": {"directory": "./dist", "binding":"ASSETS", "run_worker_first":true, "html_handling": "auto-trailing-slash", "not_found_handling": "404-page"},
+  "routes": [{"pattern":"7deadlysinstestfree.com","custom_domain":true},{"pattern":"www.7deadlysinstestfree.com","custom_domain":true}],
+  "workers_dev": false,
+  "preview_urls": false
+}

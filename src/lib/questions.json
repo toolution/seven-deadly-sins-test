@@ -1,0 +1,282 @@
+[
+  {
+    "id": "sloth-1",
+    "sin": "sloth",
+    "text": "Have difficulty starting tasks.",
+    "ipipId": "H621",
+    "reverse": false,
+    "source": "https://ipip.ori.org/AlphabeticalItemList.htm"
+  },
+  {
+    "id": "pride-1",
+    "sin": "pride",
+    "text": "Believe that I am better than others.",
+    "ipipId": "H736, X61",
+    "reverse": false,
+    "source": "https://ipip.ori.org/AlphabeticalItemList.htm"
+  },
+  {
+    "id": "greed-1",
+    "sin": "greed",
+    "text": "Am mainly interested in money.",
+    "ipipId": "Q179",
+    "reverse": false,
+    "source": "https://ipip.ori.org/AlphabeticalItemList.htm"
+  },
+  {
+    "id": "envy-1",
+    "sin": "envy",
+    "text": "Sometimes feel jealous of other people's situations.",
+    "ipipId": "D44",
+    "reverse": false,
+    "source": "https://ipip.ori.org/AlphabeticalItemList.htm"
+  },
+  {
+    "id": "wrath-1",
+    "sin": "wrath",
+    "text": "Get angry easily.",
+    "ipipId": "H754, X18",
+    "reverse": false,
+    "source": "https://ipip.ori.org/AlphabeticalItemList.htm"
+  },
+  {
+    "id": "gluttony-1",
+    "sin": "gluttony",
+    "text": "Often eat too much.",
+    "ipipId": "X145",
+    "reverse": false,
+    "source": "https://ipip.ori.org/AlphabeticalItemList.htm"
+  },
+  {
+    "id": "lust-1",
+    "sin": "lust",
+    "text": "Have strong sexual urges.",
+    "ipipId": "Q52",
+    "reverse": false,
+    "source": "https://ipip.ori.org/AlphabeticalItemList.htm"
+  },
+  {
+    "id": "sloth-2",
+    "sin": "sloth",
+    "text": "Find it difficult to get down to work.",
+    "ipipId": "H1171",
+    "reverse": false,
+    "source": "https://ipip.ori.org/AlphabeticalItemList.htm"
+  },
+  {
+    "id": "pride-2",
+    "sin": "pride",
+    "text": "Boast about my virtues.",
+    "ipipId": "H746",
+    "reverse": false,
+    "source": "https://ipip.ori.org/AlphabeticalItemList.htm"
+  },
+  {
+    "id": "greed-2",
+    "sin": "greed",
+    "text": "Feel a strong need to hold on to my possessions.",
+    "ipipId": "V284",
+    "reverse": false,
+    "source": "https://ipip.ori.org/AlphabeticalItemList.htm"
+  },
+  {
+    "id": "envy-2",
+    "sin": "envy",
+    "text": "Am a jealous person.",
+    "ipipId": "T80",
+    "reverse": false,
+    "source": "https://ipip.ori.org/AlphabeticalItemList.htm"
+  },
+  {
+    "id": "wrath-2",
+    "sin": "wrath",
+    "text": "Lose my temper.",
+    "ipipId": "H755",
+    "reverse": false,
+    "source": "https://ipip.ori.org/AlphabeticalItemList.htm"
+  },
+  {
+    "id": "gluttony-2",
+    "sin": "gluttony",
+    "text": "Go on binges.",
+    "ipipId": "X133",
+    "reverse": false,
+    "source": "https://ipip.ori.org/AlphabeticalItemList.htm"
+  },
+  {
+    "id": "lust-2",
+    "sin": "lust",
+    "text": "Enjoy flirting.",
+    "ipipId": "V273",
+    "reverse": false,
+    "source": "https://ipip.ori.org/AlphabeticalItemList.htm"
+  },
+  {
+    "id": "sloth-3",
+    "sin": "sloth",
+    "text": "Need a push to get started.",
+    "ipipId": "H969",
+    "reverse": false,
+    "source": "https://ipip.ori.org/AlphabeticalItemList.htm"
+  },
+  {
+    "id": "pride-3",
+    "sin": "pride",
+    "text": "Have a high opinion of myself.",
+    "ipipId": "H738",
+    "reverse": false,
+    "source": "https://ipip.ori.org/AlphabeticalItemList.htm"
+  },
+  {
+    "id": "greed-3",
+    "sin": "greed",
+    "text": "Love luxury.",
+    "ipipId": "Q161",
+    "reverse": false,
+    "source": "https://ipip.ori.org/AlphabeticalItemList.htm"
+  },
+  {
+    "id": "envy-3",
+    "sin": "envy",
+    "text": "Get jealous easily.",
+    "ipipId": "T1357",
+    "reverse": false,
+    "source": "https://ipip.ori.org/AlphabeticalItemList.htm"
+  },
+  {
+    "id": "wrath-3",
+    "sin": "wrath",
+    "text": "Get irritated easily.",
+    "ipipId": "H761",
+    "reverse": false,
+    "source": "https://ipip.ori.org/AlphabeticalItemList.htm"
+  },
+  {
+    "id": "gluttony-3",
+    "sin": "gluttony",
+    "text": "Let myself be taken over by urges to spend or eat too much.",
+    "ipipId": "V224",
+    "reverse": false,
+    "source": "https://ipip.ori.org/AlphabeticalItemList.htm"
+  },
+  {
+    "id": "lust-3",
+    "sin": "lust",
+    "text": "Enjoy sexual experiences intensely.",
+    "ipipId": "Q245",
+    "reverse": false,
+    "source": "https://ipip.ori.org/AlphabeticalItemList.htm"
+  },
+  {
+    "id": "sloth-4",
+    "sin": "sloth",
+    "text": "Get chores done right away.",
+    "ipipId": "E119",
+    "reverse": true,
+    "source": "https://ipip.ori.org/AlphabeticalItemList.htm"
+  },
+  {
+    "id": "pride-4",
+    "sin": "pride",
+    "text": "Deserve special treatment from others.",
+    "ipipId": "T816",
+    "reverse": false,
+    "source": "https://ipip.ori.org/AlphabeticalItemList.htm"
+  },
+  {
+    "id": "greed-4",
+    "sin": "greed",
+    "text": "Believe that one of the most important achievements in life includes acquiring material possessions.",
+    "ipipId": "M28",
+    "reverse": false,
+    "source": "https://ipip.ori.org/AlphabeticalItemList.htm"
+  },
+  {
+    "id": "envy-4",
+    "sin": "envy",
+    "text": "Don't desire things that others have.",
+    "ipipId": "Q155",
+    "reverse": true,
+    "source": "https://ipip.ori.org/AlphabeticalItemList.htm"
+  },
+  {
+    "id": "wrath-4",
+    "sin": "wrath",
+    "text": "Hold a grudge.",
+    "ipipId": "X217",
+    "reverse": false,
+    "source": "https://ipip.ori.org/AlphabeticalItemList.htm"
+  },
+  {
+    "id": "gluttony-4",
+    "sin": "gluttony",
+    "text": "Rarely overindulge.",
+    "ipipId": "X181",
+    "reverse": true,
+    "source": "https://ipip.ori.org/AlphabeticalItemList.htm"
+  },
+  {
+    "id": "lust-4",
+    "sin": "lust",
+    "text": "Am not much of a flirt.",
+    "ipipId": "T324",
+    "reverse": true,
+    "source": "https://ipip.ori.org/AlphabeticalItemList.htm"
+  },
+  {
+    "id": "sloth-5",
+    "sin": "sloth",
+    "text": "Start tasks right away.",
+    "ipipId": "H511",
+    "reverse": true,
+    "source": "https://ipip.ori.org/AlphabeticalItemList.htm"
+  },
+  {
+    "id": "pride-5",
+    "sin": "pride",
+    "text": "Am humble about the good things that have happened to me.",
+    "ipipId": "V31",
+    "reverse": true,
+    "source": "https://ipip.ori.org/AlphabeticalItemList.htm"
+  },
+  {
+    "id": "greed-5",
+    "sin": "greed",
+    "text": "Try to keep my life simple, with very few possessions.",
+    "ipipId": "M37",
+    "reverse": true,
+    "source": "https://ipip.ori.org/AlphabeticalItemList.htm"
+  },
+  {
+    "id": "envy-5",
+    "sin": "envy",
+    "text": "Am not easily made to feel jealous.",
+    "ipipId": "Q144",
+    "reverse": true,
+    "source": "https://ipip.ori.org/AlphabeticalItemList.htm"
+  },
+  {
+    "id": "wrath-5",
+    "sin": "wrath",
+    "text": "Keep my cool.",
+    "ipipId": "X191",
+    "reverse": true,
+    "source": "https://ipip.ori.org/AlphabeticalItemList.htm"
+  },
+  {
+    "id": "gluttony-5",
+    "sin": "gluttony",
+    "text": "Am able to control my cravings.",
+    "ipipId": "X251",
+    "reverse": true,
+    "source": "https://ipip.ori.org/AlphabeticalItemList.htm"
+  },
+  {
+    "id": "lust-5",
+    "sin": "lust",
+    "text": "Have little desire for sex or romance.",
+    "ipipId": "T1601",
+    "reverse": true,
+    "source": "https://ipip.ori.org/AlphabeticalItemList.htm"
+  }
+]

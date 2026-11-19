@@ -1,0 +1,11 @@
+# 7 Deadly Sins Test
+
+> A free entertainment and self-reflection quiz using 35 public-domain IPIP statements. Seven independent theme scores, written explanations, and a downloadable result image. No account required.
+
+- [Take the test](https://7deadlysinstestfree.com/): The first question is directly available on the homepage.
+- [Methodology and complete item key](https://7deadlysinstestfree.com/methodology/): Exact item wording, IPIP identifiers, forward/reverse scoring, and limitations.
+- [Privacy](https://7deadlysinstestfree.com/privacy/): Answers are processed and stored locally in the browser; shared links contain seven scores.
+- [Terms](https://7deadlysinstestfree.com/terms/)
+- [IPIP public-domain permission](https://ipip.ori.org/newPermission.htm)
+
+The seven-sin mapping and interpretation are site-created and have not been validated as a psychological scale. Scores are percentages of available points, not population percentiles or a diagnosis. IPIP does not endorse this site's interpretation.

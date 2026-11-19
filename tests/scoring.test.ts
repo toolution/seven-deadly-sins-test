@@ -1,0 +1,9 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {questions,calculate,strongest,encode,decode} from '../src/lib/scoring.ts';
+import {SINS} from '../src/lib/sins.ts';
+test('every dimension has five traceable source items',()=>{assert.equal(questions.length,35);assert.equal(new Set(questions.map(q=>q.id)).size,35);for(const sin of SINS)assert.equal(questions.filter(q=>q.sin===sin.id).length,5);assert.ok(questions.every(q=>q.ipipId&&q.source.startsWith('https://ipip.ori.org/')));});
+test('all neutral answers produce a seven-way tie',()=>{const scores=calculate(Array(35).fill(2));assert.ok(Object.values(scores).every(s=>s===50));assert.equal(strongest(scores).length,7);});
+test('reverse-keyed answers reach endpoints and one theme never changes another',()=>{const minimum=questions.map(q=>q.reverse?4:0),maximum=questions.map(q=>q.reverse?0:4);assert.ok(Object.values(calculate(minimum)).every(s=>s===0));assert.ok(Object.values(calculate(maximum)).every(s=>s===100));const mixed=minimum.map((a,i)=>questions[i].sin==='sloth'?maximum[i]:a);const scores=calculate(mixed);assert.equal(scores.sloth,100);assert.ok(SINS.filter(s=>s.id!=='sloth').every(s=>scores[s.id]===0));assert.deepEqual(strongest(scores).map(s=>s.id),['sloth']);});
+test('missing, nonnumeric, and out-of-range answers cannot yield a result',()=>{for(const answers of [[],Array(34).fill(2),[...Array(34).fill(2),null],[...Array(34).fill(2),5],[...Array(34).fill(2),1.5]])assert.throws(()=>calculate(answers as number[]));});
+test('result links round-trip and reject malformed or unsupported scores',()=>{const scores=calculate(questions.map(q=>q.reverse?0:4));assert.deepEqual(decode(encode(scores)),scores);for(const raw of ['', '2.0.0.0.0.0.0.0','1.0.0.0','1.0.0.0.0.0.0.101','1.0.0.0.0.0.0.NaN','1.0.0.0.0.0.0.3','1.0.0.0.0.0.0.-5','1.0.0.0.0.0.0.0.extra'])assert.equal(decode(raw),null);});
