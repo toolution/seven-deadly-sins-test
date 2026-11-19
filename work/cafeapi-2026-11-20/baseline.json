@@ -1,0 +1,865 @@
+{
+  "ok": true,
+  "tool": "onpage_audit",
+  "requestId": "req_191e938ac7330aeb",
+  "credits": {
+    "charged": 2
+  },
+  "data": {
+    "score": 94,
+    "grade": "A",
+    "label": "优秀",
+    "topicFocus": {
+      "score": 100,
+      "cap": null,
+      "note": "关键词聚焦度 100%——Title、H1、正文与密度榜围绕关键词展开",
+      "isBrand": false
+    },
+    "wordCap": null,
+    "serpInsight": {
+      "keyword": "7 deadly sins test",
+      "results": 9,
+      "withSitelinks": 0,
+      "ownPosition": null,
+      "ownSitelinks": 0,
+      "urlPosition": null,
+      "urlSitelinks": 0,
+      "firstDomain": "idrlabs.com",
+      "firstIsOwn": false
+    },
+    "categories": [
+      {
+        "key": "meta",
+        "label": "Meta 元信息",
+        "earned": 25,
+        "max": 25,
+        "checks": [
+          {
+            "cat": "meta",
+            "key": "title",
+            "label": "Title 标题",
+            "max": 6,
+            "score": 6,
+            "status": "pass",
+            "note": "「7 Deadly Sins Test — Free Quiz, Find Your Strongest Sin」长度 55（合理区间 15~60，中文按 2 计）"
+          },
+          {
+            "cat": "meta",
+            "key": "description",
+            "label": "Meta Description 描述",
+            "max": 5,
+            "score": 5,
+            "status": "pass",
+            "note": "长度 144（合理区间 70~160，中文按 2 计）"
+          },
+          {
+            "cat": "meta",
+            "key": "canonical",
+            "label": "Canonical 规范链接",
+            "max": 3,
+            "score": 3,
+            "status": "pass",
+            "note": "已自引用声明：https://7deadlysinstestfree.com/"
+          },
+          {
+            "cat": "meta",
+            "key": "robots",
+            "label": "Robots 收录指令",
+            "max": 3,
+            "score": 3,
+            "status": "pass",
+            "note": "robots=index,follow，允许收录"
+          },
+          {
+            "cat": "meta",
+            "key": "viewport",
+            "label": "Viewport 移动适配",
+            "max": 3,
+            "score": 3,
+            "status": "pass",
+            "note": "已声明 viewport，移动端可正常缩放渲染"
+          },
+          {
+            "cat": "meta",
+            "key": "charset",
+            "label": "字符编码声明",
+            "max": 2,
+            "score": 2,
+            "status": "pass",
+            "note": "已声明 charset"
+          },
+          {
+            "cat": "meta",
+            "key": "lang",
+            "label": "HTML lang 语言声明",
+            "max": 2,
+            "score": 2,
+            "status": "pass",
+            "note": "lang=en"
+          },
+          {
+            "cat": "meta",
+            "key": "favicon",
+            "label": "Favicon 站点图标",
+            "max": 1,
+            "score": 1,
+            "status": "pass",
+            "note": "已声明站点图标"
+          }
+        ]
+      },
+      {
+        "key": "content",
+        "label": "内容质量",
+        "earned": 17.5,
+        "max": 19,
+        "checks": [
+          {
+            "cat": "content",
+            "key": "h1",
+            "label": "H1 主标题",
+            "max": 5,
+            "score": 5,
+            "status": "pass",
+            "note": "唯一 H1「7 Deadly Sins Test」，长度 18"
+          },
+          {
+            "cat": "content",
+            "key": "heading_structure",
+            "label": "标题层级结构",
+            "max": 3,
+            "score": 3,
+            "status": "pass",
+            "note": "层级递进正常：共 16 个标题，其中 H2 × 5"
+          },
+          {
+            "cat": "content",
+            "key": "word_count",
+            "label": "正文词数（1200~1800 为佳）",
+            "max": 5,
+            "score": 3.5,
+            "status": "warn",
+            "note": "全页 790 个词，有一定内容量，建议补充到 1200~1800 最佳区间"
+          },
+          {
+            "cat": "content",
+            "key": "rendering",
+            "label": "渲染方式",
+            "max": 3,
+            "score": 3,
+            "status": "pass",
+            "note": "正文已随 HTML 直出，服务端渲染/静态页，搜索引擎首轮抓取即可拿到内容"
+          },
+          {
+            "cat": "content",
+            "key": "fulfillment",
+            "label": "需求承接方式",
+            "max": 0,
+            "score": 0,
+            "status": "info",
+            "note": "未检测到当页交互元素，也没有明显的跳转式 CTA。内容/文章页可忽略；若这是工具或游戏页，请确认功能确实在本页可用（纯前端注入的交互组件可能无法被静态检测识别）"
+          },
+          {
+            "cat": "content",
+            "key": "text_ratio",
+            "label": "文本/代码比",
+            "max": 3,
+            "score": 3,
+            "status": "pass",
+            "note": "可见文本占 HTML 的 33.6%，信噪比健康"
+          }
+        ]
+      },
+      {
+        "key": "keyword",
+        "label": "关键词优化",
+        "earned": 33.33,
+        "max": 40,
+        "checks": [
+          {
+            "cat": "keyword",
+            "key": "kw_focus",
+            "label": "主题聚焦度（页面是否围绕关键词展开）",
+            "max": 0,
+            "score": 0,
+            "status": "pass",
+            "note": "关键词聚焦度 100%——Title、H1、正文与密度榜围绕关键词展开"
+          },
+          {
+            "cat": "keyword",
+            "key": "kw_title",
+            "label": "关键词出现在 Title",
+            "max": 8,
+            "score": 8,
+            "status": "pass",
+            "note": "关键词完整出现在 Title"
+          },
+          {
+            "cat": "keyword",
+            "key": "kw_description",
+            "label": "关键词出现在 Description",
+            "max": 4,
+            "score": 4,
+            "status": "pass",
+            "note": "关键词完整出现在描述中"
+          },
+          {
+            "cat": "keyword",
+            "key": "kw_h1",
+            "label": "关键词出现在 H1",
+            "max": 8,
+            "score": 8,
+            "status": "pass",
+            "note": "关键词完整出现在 H1"
+          },
+          {
+            "cat": "keyword",
+            "key": "kw_subheading",
+            "label": "关键词出现在 H2/H3",
+            "max": 3,
+            "score": 0,
+            "status": "fail",
+            "note": "H2/H3 中未出现关键词，建议至少一个小标题围绕关键词展开"
+          },
+          {
+            "cat": "keyword",
+            "key": "kw_url",
+            "label": "关键词出现在 URL（域名或路径）",
+            "max": 2,
+            "score": 2,
+            "status": "pass",
+            "note": "域名直拼包含完整关键词（7deadlysinstestfree.com，EMD）"
+          },
+          {
+            "cat": "keyword",
+            "key": "kw_first",
+            "label": "关键词出现在开头 100 词",
+            "max": 3,
+            "score": 3,
+            "status": "pass",
+            "note": "正文前 100 词已完整覆盖关键词"
+          },
+          {
+            "cat": "keyword",
+            "key": "kw_density",
+            "label": "关键词密度（单词 3%~5% 为佳；多词看密度榜）",
+            "max": 2,
+            "score": 2,
+            "status": "pass",
+            "note": "完整词组出现 3 次、密度 1.52%——多词关键词不要求整词组高密度，聚焦质量看下项密度榜覆盖"
+          },
+          {
+            "cat": "keyword",
+            "key": "kw_rank",
+            "label": "密度榜位置加权覆盖（1~5 词榜前 10，越靠前分越高）",
+            "max": 10,
+            "score": 6.33,
+            "status": "warn",
+            "note": "看密度就是看文案是否聚焦：词数达标 + 1~5 词密度榜前排都是目标词相关词 + TDH 覆盖 = 良好页面。1词:未上榜(0/8)；2词:命中第1名、第2名(50%)、第3名、第4名等 5 条(+8/8)；3词:命中第1名、第2名、第3名(67%)(+8/8)；4词:命中第1名(+3/3)；5词:未上榜(0/3)。前排仍有不少与目标词无关的高频词，可对照下方密度榜调整文案"
+          },
+          {
+            "cat": "keyword",
+            "key": "kw_serp",
+            "label": "SERP 竞争（Sitelinks 信号）",
+            "max": 0,
+            "score": 0,
+            "status": "info",
+            "note": "「7 deadly sins test」谷歌前十中 0 个结果展示 Sitelinks/mini sitelinks；前十未见本站。带 Sitelinks 的结果越多，被谷歌认可的强势站越多，竞争越激烈"
+          }
+        ]
+      },
+      {
+        "key": "links",
+        "label": "链接",
+        "earned": 7,
+        "max": 7,
+        "checks": [
+          {
+            "cat": "links",
+            "key": "internal_links",
+            "label": "站内链接",
+            "max": 3,
+            "score": 3,
+            "status": "pass",
+            "note": "内链 11 条，有利于抓取与权重流动"
+          },
+          {
+            "cat": "links",
+            "key": "anchor_text",
+            "label": "锚文本质量",
+            "max": 3,
+            "score": 3,
+            "status": "pass",
+            "note": "共 12 条链接，均有描述性锚文本"
+          },
+          {
+            "cat": "links",
+            "key": "noopener",
+            "label": "外链 target=_blank 安全",
+            "max": 1,
+            "score": 1,
+            "status": "pass",
+            "note": "新窗口外链均带 noopener（或无此类链接）"
+          },
+          {
+            "cat": "links",
+            "key": "external_links",
+            "label": "站外链接",
+            "max": 0,
+            "score": 0,
+            "status": "info",
+            "note": "外链 1 条，其中 nofollow 0 条。适量导出到权威来源是正常信号"
+          }
+        ]
+      },
+      {
+        "key": "media",
+        "label": "图片与媒体",
+        "earned": 8,
+        "max": 8,
+        "checks": [
+          {
+            "cat": "media",
+            "key": "img_alt",
+            "label": "图片 Alt 属性",
+            "max": 5,
+            "score": 5,
+            "status": "pass",
+            "note": "7 张图片全部带 alt 属性"
+          },
+          {
+            "cat": "media",
+            "key": "img_size",
+            "label": "图片宽高声明（防布局抖动）",
+            "max": 2,
+            "score": 2,
+            "status": "pass",
+            "note": "所有图片均声明 width/height"
+          },
+          {
+            "cat": "media",
+            "key": "img_lazy",
+            "label": "图片懒加载",
+            "max": 1,
+            "score": 1,
+            "status": "pass",
+            "note": "7 张图片使用 loading=lazy"
+          }
+        ]
+      },
+      {
+        "key": "social",
+        "label": "社交与结构化数据",
+        "earned": 10,
+        "max": 10,
+        "checks": [
+          {
+            "cat": "social",
+            "key": "og",
+            "label": "Open Graph 标签",
+            "max": 4,
+            "score": 4,
+            "status": "pass",
+            "note": "og:title / og:description / og:image 齐全，社交分享有完整卡片"
+          },
+          {
+            "cat": "social",
+            "key": "twitter",
+            "label": "Twitter/X 卡片",
+            "max": 2,
+            "score": 2,
+            "status": "pass",
+            "note": "twitter:card=summary_large_image"
+          },
+          {
+            "cat": "social",
+            "key": "jsonld",
+            "label": "结构化数据 JSON-LD",
+            "max": 4,
+            "score": 4,
+            "status": "pass",
+            "note": "检测到 1 个 JSON-LD 块，类型：WebPage"
+          }
+        ]
+      },
+      {
+        "key": "tech",
+        "label": "技术与抓取",
+        "earned": 17,
+        "max": 17,
+        "checks": [
+          {
+            "cat": "tech",
+            "key": "raw_html_elements",
+            "label": "原始 HTML 直出情况",
+            "max": 0,
+            "score": 0,
+            "status": "info",
+            "note": "直出正文 4955 字符 / 响应 14KB　✓<title>　✕<h1>　✓meta description　✓canonical　✓og:title　✓JSON-LD 结构化数据"
+          },
+          {
+            "cat": "tech",
+            "key": "https",
+            "label": "HTTPS 加密",
+            "max": 3,
+            "score": 3,
+            "status": "pass",
+            "note": "已启用 HTTPS"
+          },
+          {
+            "cat": "tech",
+            "key": "status",
+            "label": "HTTP 状态与跳转",
+            "max": 3,
+            "score": 3,
+            "status": "pass",
+            "note": "直接返回 200，无跳转"
+          },
+          {
+            "cat": "tech",
+            "key": "speed",
+            "label": "响应速度",
+            "max": 3,
+            "score": 3,
+            "status": "pass",
+            "note": "HTML 下载完成耗时 101ms"
+          },
+          {
+            "cat": "tech",
+            "key": "size",
+            "label": "HTML 体积",
+            "max": 2,
+            "score": 2,
+            "status": "pass",
+            "note": "HTML 体积 14 KB"
+          },
+          {
+            "cat": "tech",
+            "key": "url_quality",
+            "label": "URL 规范性",
+            "max": 2,
+            "score": 2,
+            "status": "pass",
+            "note": "URL 简洁规范"
+          },
+          {
+            "cat": "tech",
+            "key": "robots_txt",
+            "label": "robots.txt",
+            "max": 2,
+            "score": 2,
+            "status": "pass",
+            "note": "robots.txt 可访问"
+          },
+          {
+            "cat": "tech",
+            "key": "sitemap",
+            "label": "Sitemap 站点地图",
+            "max": 2,
+            "score": 2,
+            "status": "pass",
+            "note": "robots.txt 中已声明 Sitemap：https://7deadlysinstestfree.com/sitemap.xml"
+          }
+        ]
+      }
+    ],
+    "page": {
+      "url": "https://7deadlysinstestfree.com/",
+      "finalUrl": "https://7deadlysinstestfree.com/",
+      "httpStatus": 200,
+      "redirects": [],
+      "elapsedMs": 101,
+      "bytes": 14766,
+      "truncated": false,
+      "title": "7 Deadly Sins Test — Free Quiz, Find Your Strongest Sin",
+      "description": "Take the free 7 deadly sins test: answer 35 questions, discover your strongest sin, and download your result image. Instant results. No sign-up.",
+      "lang": "en",
+      "headings": [
+        {
+          "tag": "h1",
+          "level": 1,
+          "text": "7 Deadly Sins Test"
+        },
+        {
+          "tag": "h2",
+          "level": 2,
+          "text": "Have difficulty starting tasks."
+        },
+        {
+          "tag": "h2",
+          "level": 2,
+          "text": "A mirror. With a mischievous side."
+        },
+        {
+          "tag": "h3",
+          "level": 3,
+          "text": "Be your usual self."
+        },
+        {
+          "tag": "h3",
+          "level": 3,
+          "text": "Meet your seven sides."
+        },
+        {
+          "tag": "h3",
+          "level": 3,
+          "text": "Keep the picture."
+        },
+        {
+          "tag": "h2",
+          "level": 2,
+          "text": "Seven names. Very human tendencies."
+        },
+        {
+          "tag": "h3",
+          "level": 3,
+          "text": "Pride The need to stand out"
+        },
+        {
+          "tag": "h3",
+          "level": 3,
+          "text": "Greed The pull of having more"
+        },
+        {
+          "tag": "h3",
+          "level": 3,
+          "text": "Lust The spark of attraction"
+        },
+        {
+          "tag": "h3",
+          "level": 3,
+          "text": "Envy The comparison instinct"
+        },
+        {
+          "tag": "h3",
+          "level": 3,
+          "text": "Gluttony The appetite for more"
+        },
+        {
+          "tag": "h3",
+          "level": 3,
+          "text": "Wrath The heat of your reaction"
+        },
+        {
+          "tag": "h3",
+          "level": 3,
+          "text": "Sloth The friction of getting started"
+        },
+        {
+          "tag": "h2",
+          "level": 2,
+          "text": "A few good questions."
+        },
+        {
+          "tag": "h2",
+          "level": 2,
+          "text": "Curious which side leads?"
+        }
+      ],
+      "wordCount": 790,
+      "imageCount": 7,
+      "linkInternal": 11,
+      "linkExternal": 1,
+      "jsonLdTypes": [
+        "WebPage"
+      ]
+    },
+    "ngramTop": {
+      "1": [
+        {
+          "phrase": "the",
+          "count": 29,
+          "density": 3.67,
+          "densityOccupy": 3.67
+        },
+        {
+          "phrase": "and",
+          "count": 26,
+          "density": 3.29,
+          "densityOccupy": 3.29
+        },
+        {
+          "phrase": "a",
+          "count": 25,
+          "density": 3.16,
+          "densityOccupy": 3.16
+        },
+        {
+          "phrase": "your",
+          "count": 16,
+          "density": 2.03,
+          "densityOccupy": 2.03
+        },
+        {
+          "phrase": "you",
+          "count": 15,
+          "density": 1.9,
+          "densityOccupy": 1.9
+        },
+        {
+          "phrase": "is",
+          "count": 12,
+          "density": 1.52,
+          "densityOccupy": 1.52
+        },
+        {
+          "phrase": "not",
+          "count": 12,
+          "density": 1.52,
+          "densityOccupy": 1.52
+        },
+        {
+          "phrase": "to",
+          "count": 11,
+          "density": 1.39,
+          "densityOccupy": 1.39
+        },
+        {
+          "phrase": "this",
+          "count": 11,
+          "density": 1.39,
+          "densityOccupy": 1.39
+        },
+        {
+          "phrase": "seven",
+          "count": 10,
+          "density": 1.27,
+          "densityOccupy": 1.27
+        },
+        {
+          "phrase": "test",
+          "count": 10,
+          "density": 1.27,
+          "densityOccupy": 1.27
+        },
+        {
+          "phrase": "of",
+          "count": 9,
+          "density": 1.14,
+          "densityOccupy": 1.14
+        },
+        {
+          "phrase": "items",
+          "count": 9,
+          "density": 1.14,
+          "densityOccupy": 1.14
+        },
+        {
+          "phrase": "sins",
+          "count": 8,
+          "density": 1.01,
+          "densityOccupy": 1.01
+        },
+        {
+          "phrase": "how",
+          "count": 8,
+          "density": 1.01,
+          "densityOccupy": 1.01
+        }
+      ],
+      "2": [
+        {
+          "phrase": "deadly sins",
+          "count": 5,
+          "density": 0.63,
+          "densityOccupy": 1.27
+        },
+        {
+          "phrase": "seven sins",
+          "count": 3,
+          "density": 0.38,
+          "densityOccupy": 0.76
+        },
+        {
+          "phrase": "7 deadly",
+          "count": 3,
+          "density": 0.38,
+          "densityOccupy": 0.76
+        },
+        {
+          "phrase": "sins test",
+          "count": 3,
+          "density": 0.38,
+          "densityOccupy": 0.76
+        },
+        {
+          "phrase": "how accurately",
+          "count": 3,
+          "density": 0.38,
+          "densityOccupy": 0.76
+        },
+        {
+          "phrase": "your answers",
+          "count": 3,
+          "density": 0.38,
+          "densityOccupy": 0.76
+        },
+        {
+          "phrase": "not a",
+          "count": 3,
+          "density": 0.38,
+          "densityOccupy": 0.76
+        },
+        {
+          "phrase": "is not",
+          "count": 3,
+          "density": 0.38,
+          "densityOccupy": 0.76
+        },
+        {
+          "phrase": "the test",
+          "count": 3,
+          "density": 0.38,
+          "densityOccupy": 0.76
+        },
+        {
+          "phrase": "the seven",
+          "count": 2,
+          "density": 0.25,
+          "densityOccupy": 0.51
+        },
+        {
+          "phrase": "seven deadly",
+          "count": 2,
+          "density": 0.25,
+          "densityOccupy": 0.51
+        },
+        {
+          "phrase": "sins is",
+          "count": 2,
+          "density": 0.25,
+          "densityOccupy": 0.51
+        },
+        {
+          "phrase": "difficulty starting",
+          "count": 2,
+          "density": 0.25,
+          "densityOccupy": 0.51
+        },
+        {
+          "phrase": "statement describes",
+          "count": 2,
+          "density": 0.25,
+          "densityOccupy": 0.51
+        },
+        {
+          "phrase": "describes you",
+          "count": 2,
+          "density": 0.25,
+          "densityOccupy": 0.51
+        }
+      ],
+      "3": [
+        {
+          "phrase": "7 deadly sins",
+          "count": 3,
+          "density": 0.38,
+          "densityOccupy": 1.14
+        },
+        {
+          "phrase": "deadly sins test",
+          "count": 3,
+          "density": 0.38,
+          "densityOccupy": 1.14
+        },
+        {
+          "phrase": "seven deadly sins",
+          "count": 2,
+          "density": 0.25,
+          "densityOccupy": 0.76
+        },
+        {
+          "phrase": "statement describes you",
+          "count": 2,
+          "density": 0.25,
+          "densityOccupy": 0.76
+        },
+        {
+          "phrase": "your usual self",
+          "count": 2,
+          "density": 0.25,
+          "densityOccupy": 0.76
+        },
+        {
+          "phrase": "change an answer",
+          "count": 2,
+          "density": 0.25,
+          "densityOccupy": 0.76
+        },
+        {
+          "phrase": "for entertainment and",
+          "count": 2,
+          "density": 0.25,
+          "densityOccupy": 0.76
+        },
+        {
+          "phrase": "entertainment and self-reflection",
+          "count": 2,
+          "density": 0.25,
+          "densityOccupy": 0.76
+        },
+        {
+          "phrase": "and self-reflection not",
+          "count": 2,
+          "density": 0.25,
+          "densityOccupy": 0.76
+        }
+      ],
+      "4": [
+        {
+          "phrase": "7 deadly sins test",
+          "count": 3,
+          "density": 0.38,
+          "densityOccupy": 1.52
+        },
+        {
+          "phrase": "for entertainment and self-reflection",
+          "count": 2,
+          "density": 0.25,
+          "densityOccupy": 1.01
+        },
+        {
+          "phrase": "entertainment and self-reflection not",
+          "count": 2,
+          "density": 0.25,
+          "densityOccupy": 1.01
+        }
+      ],
+      "5": [
+        {
+          "phrase": "for entertainment and self-reflection not",
+          "count": 2,
+          "density": 0.25,
+          "densityOccupy": 1.27
+        }
+      ]
+    },
+    "keyword": "7 deadly sins test",
+    "primaryKeyword": "7 deadly sins test",
+    "keywordTokens": [
+      "7",
+      "deadly",
+      "sins",
+      "test"
+    ],
+    "keywordCount": 3,
+    "keywordDensity": 1.52,
+    "keywords": [
+      {
+        "keyword": "7 deadly sins test",
+        "focusScore": 100,
+        "isBrand": false,
+        "brandCandidate": false,
+        "brandVerified": false,
+        "rTitle": 1,
+        "rH1": 1,
+        "rUrl": 1,
+        "count": 3,
+        "density": 1.52,
+        "bestCov": 1,
+        "bestRank": 0
+      }
+    ],
+    "fetchedAt": "2026-11-19T19:07:33.041Z"
+  }
+}
