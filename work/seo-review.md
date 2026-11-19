@@ -1,4 +1,12 @@
-# Homepage SEO review — production
+# Homepage SEO review — current status
+
+Updated 2026-11-20: the additional Web.Cafe on-page audit improved the homepage from **94 to 98/100**, with **100% keyword topic focus**. The deployed homepage now includes clearer H2 headings, result interpretation examples and nine FAQs. Title, description and H1 continue to pass. Full before/after evidence, accepted detector limitations, production tests and deployment identifiers: [Web.Cafe SEO report](cafeapi-2026-11-20/REPORT.md).
+
+The launch record below describes checks and GSC submissions performed on November 19. Its older headings, six-FAQ count and deployment ID are historical, not the current homepage state. Indexing and ranking require fresh evidence.
+
+---
+
+# Launch SEO review — 2026-11-19 (historical)
 
 Primary keyword: **7 deadly sins test**. English tool page. Intent: immediately take a free questionnaire, identify the strongest of seven themes, read explanations, and save/share a result image. Canonical URL: https://7deadlysinstestfree.com/.
 
