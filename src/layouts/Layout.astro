@@ -10,6 +10,15 @@ const social=new URL('/social.png',Astro.site!);
 <html lang="en">
 <head>
 <meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8MJX9EH9V4"></script>
+<script is:inline>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  const analyticsPageLocation = window.location.origin + window.location.pathname;
+  gtag('set', 'page_location', analyticsPageLocation);
+  gtag('config', 'G-8MJX9EH9V4', { page_location: analyticsPageLocation });
+</script>
 <title>{title}</title><meta name="description" content={description}/>
 <link rel="canonical" href={canonical}/><meta name="robots" content={noindex?'noindex,follow':'index,follow'}/>
 <meta name="theme-color" content="#ffffff"/>
